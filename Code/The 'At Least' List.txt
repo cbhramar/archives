@@ -1,0 +1,27 @@
+Bredth First Traversal of Graphs and Trees
+Dijkstra's Algorithm with Fibonacci Heap
+Kruskal's Algorithm with Union Find by rank
+Deterministic Quick Select
+Polymorphic Type Interface
+2D Voronoi Diagram Generation
+2D Convex Hull Generation
+Knapsack and related DP Problems
+Ford-Fulkerson Algorithm for max flow
+Naive Bayes
+Map-Reduce
+Hill Climbing
+Floyd-Warshall
+Inductive Inference
+Markov Chain Monte Carlo
+Shor's Algorithm
+PageRank
+Plagiarism Detection using Rabin Karp String Matching
+Matching Users to Servers using Gayle-Shapely Algorithm
+Viterbi Algorithm
+Music Search using Fast Fourier Transforms
+RSA Algorithm
+Safe Browsing using Bloom Filters
+LALR Parser
+Treemap using Red Black Trees
+Circle drawing using Bresenham's Algorithm
+Tremaux's Algorithm

@@ -1,0 +1,217 @@
+﻿  yinYang.cpp
+yinYang.cpp(1): fatal error C1083: Cannot open include file: 'simplecpp': No such file or directory
+  yarnPattern.cpp
+yarnPattern.cpp(2): fatal error C1083: Cannot open include file: 'simplecpp': No such file or directory
+  windChill.cpp
+windChill.cpp(73): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(495): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(475): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(455): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(435): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(415): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(395): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(375): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(355): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(335): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(315): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(290): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(270): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(236): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(216): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(202): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(196): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(1019): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(981): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(971): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(964): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(957): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(950): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(824): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(777): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(739): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(692): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  windChill.cpp(73): note: while trying to match the argument list '(std::ostream, std::string)'
+  trimString.cpp
+  stringPalindrome.cpp
+  sqrtByNewtonRaphson.cpp
+  scrabble.cpp
+scrabble.cpp(21): warning C4018: '<': signed/unsigned mismatch
+  rootAndExtension.cpp
+rootAndExtension.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  reverseFile.cpp
+  replaceAll.cpp
+replaceAll.cpp(26): warning C4018: '<': signed/unsigned mismatch
+  removeDoubledLetters.cpp
+removeDoubledLetters.cpp(21): warning C4018: '<': signed/unsigned mismatch
+  removeComments.cpp
+  removeChars.cpp
+  recursiveFact.cpp
+  recPal.cpp
+recPal.cpp(13): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(482): note: could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(463): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(445): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(427): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(408): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(390): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(371): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(352): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(334): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(316): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(290): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(271): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(236): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(217): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(210): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(203): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(197): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(1104): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(1094): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(1087): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(1080): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream(1073): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+  recPal.cpp(13): note: while trying to match the argument list '(std::istream, std::string)'
+  recFib.cpp
+  rational.cpp
+  randomAverage.cpp
+  quadraticSolver.cpp
+quadraticSolver.cpp(43): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(495): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(475): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(455): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(435): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(415): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(395): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(375): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(355): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(335): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(315): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(290): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(270): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(236): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(216): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(202): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(196): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(1019): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(981): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(971): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(964): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(957): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(950): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(824): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(777): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(739): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(692): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  quadraticSolver.cpp(43): note: while trying to match the argument list '(std::ostream, std::string)'
+  printTrigoTable.cpp
+  Generating Code...
+  Compiling...
+  primeFactorization.cpp
+  precision.cpp
+  piLeibniz.cpp
+  piByRandomDarts.cpp
+  piByArea.cpp
+  perfectNumbers.cpp
+  palindromeSentence.cpp
+palindromeSentence.cpp(34): warning C4018: '<': signed/unsigned mismatch
+  p(n,k).cpp
+  obenglobish.cpp
+  nuclearDecay.cpp
+  letterSubCipher.cpp
+letterSubCipher.cpp(24): warning C4018: '<': signed/unsigned mismatch
+letterSubCipher.cpp(26): warning C4018: '<': signed/unsigned mismatch
+  itsAllGreek.cpp
+  invertKey.cpp
+invertKey.cpp(21): warning C4018: '<': signed/unsigned mismatch
+invertKey.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  headsCounter.cpp
+  hailstoneSequence.cpp
+  firstfstream.cpp
+  findEaster.cpp
+  findDNAMatch.cpp
+findDNAMatch.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  fileCount.cpp
+  euclid'sGCD.cpp
+  Generating Code...
+b:\code\c++ programs\stanford\euclid'sgcd.cpp(23): warning C4715: 'gcd': not all control paths return a value
+b:\code\c++ programs\stanford\filecount.cpp(30): warning C4700: uninitialized local variable 'sum' used
+b:\code\c++ programs\stanford\filecount.cpp(41): warning C4700: uninitialized local variable 'sum' used
+  Compiling...
+  englishToPiglatin.cpp
+englishToPiglatin.cpp(30): warning C4018: '<': signed/unsigned mismatch
+englishToPiglatin.cpp(79): warning C4018: '<': signed/unsigned mismatch
+  domino.cpp
+b:\code\c++ programs\stanford\domino.h(30): error C2065: 'ostream': undeclared identifier
+b:\code\c++ programs\stanford\domino.h(30): error C2065: 'os': undeclared identifier
+b:\code\c++ programs\stanford\domino.h(30): error C2275: 'Domino': illegal use of this type as an expression
+  b:\code\c++ programs\stanford\domino.h(13): note: see declaration of 'Domino'
+b:\code\c++ programs\stanford\domino.h(30): error C2146: syntax error: missing ')' before identifier 'dm'
+  defaultExtension.cpp
+defaultExtension.cpp(25): warning C4018: '<': signed/unsigned mismatch
+  Date.cpp
+  cyclicCipher.cpp
+cyclicCipher.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  createPlural.cpp
+  createOrdnalForm.cpp
+  craps.cpp
+  countingFile.cpp
+  countingAlphabets.cpp
+countingAlphabets.cpp(42): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(495): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(475): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(455): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(435): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(415): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(395): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(375): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(355): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(335): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(315): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(290): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(270): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(236): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(216): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(202): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(196): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(1019): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(981): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(971): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(964): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(957): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(950): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(824): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(777): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(739): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream(692): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  countingAlphabets.cpp(42): note: while trying to match the argument list '(std::ostream, std::string)'
+countingAlphabets.cpp(44): error C3861: 'getline': identifier not found
+  checkSuffix.cpp
+checkSuffix.cpp(27): warning C4018: '<=': signed/unsigned mismatch
+  censorship.cpp
+censorship.cpp(38): warning C4018: '<': signed/unsigned mismatch
+  capitalize.cpp
+capitalize.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  addCommas.cpp
+  acronym.cpp
+acronym.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+b:\code\c++ programs\stanford\englishtopiglatin.cpp(73): warning C4715: 'wordToPiglatin': not all control paths return a value

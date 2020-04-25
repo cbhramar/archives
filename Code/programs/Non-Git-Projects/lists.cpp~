@@ -1,0 +1,91 @@
+#include<iostream>
+#include<cmath>
+
+// I'm really sorry . I actualy sent another file for grading . This is the file I had made two days back . I apologize again for the mistake 
+// I have made . 
+
+using namespace std;
+
+class Book
+{
+	public :
+		int code;
+		Book *next;
+};
+
+void firstbook ( Book *headpointer , Book *node ) // pointer to the pointer locating first book in the list . Using two diff pointers
+{ // idea is to let headpointer remain at the beginning and let node run to the end
+	(*headpointer) = new Book; // creating the first book 
+	cin>>(*headpointer)->code; // input single int value for first book 
+	(*node)= (*headpointer); // headpointer and node stay together since firstbook = lastbook
+}
+
+void nextBook ( Book *node) // node will keep on moving to the different books as they are being added
+{
+	(*node)->next = new Book; // creating a new book
+	(*node)= (*node)->next; // moving ahead the node
+	cin>>(*node)->code; // entering data in the new book 
+	(*node)->next =NULL; // the new book is the last book in the list . hence its next is a null pointer 
+}
+
+void reversedlistofBook(Book *headpointer,Book *node) // reversing the list
+{ // four new pointers , fixed space
+	Book * current = new Book; //follows the current book , goes down till null
+	Book * previous = new Book; // the book just after the current book 
+	Book * temp = new Book; // another pointer required for tracking
+	Book * last = new Book; // the last in the reversed list
+
+	current = (*headpointer)->next; // going ahead with current , keeping others on the beggining
+	previous = (*headpointer); // all others initialised with headpointer
+	temp = (*headpointer);
+	last = (*headpointer);
+	previous->next = NULL;
+
+	while(current!=NULL) // while current does not reach the end of straight list
+	{
+		previous = current; // reassigning previous
+		current = current->next; // reassigning current 
+		previous->next = temp; // moving the queue
+		temp = previous;
+
+	}
+	(*headpointer) = previous; // since at the end current=null
+	(*node) = last; // reassigning node the first book
+	delete current; // important to delete
+	delete previous;
+	delete next1;
+	delete last;
+}
+
+void print(Book *head)
+{
+	Book *tempnode = new Book;
+	tempnode = (*head); // starting point
+	while((tempnode) != NULL)
+	{
+		cout<<(tempnode)->code<<endl; // printing current value
+		(tempnode)=(tempnode)->next; // reassigning temporary node
+
+	}
+	delete tempnode;
+}
+
+
+int main()
+{
+	int n; // no. of books to be input	
+	cin>>n;
+
+	Book *head; // random addresses to begin with the first book
+	Book *node;
+	firstBook(&head,&node); // sets up the first book 
+
+	for(int i=1;i<n;i++)
+	{
+		nextBook(&node);
+	}
+
+	print(&head); // printing straight list
+	reversedlistofBook(&head,&node); // reversing the list
+	print(&head); // printing reversed list 
+}
